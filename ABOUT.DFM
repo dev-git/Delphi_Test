@@ -4,71 +4,71 @@ object AboutBox: TAboutBox
   ActiveControl = OKButton
   BorderStyle = bsDialog
   Caption = 'About'
-  ClientHeight = 268
-  ClientWidth = 367
+  ClientHeight = 218
+  ClientWidth = 298
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clBlack
-  Font.Height = -14
+  Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
   Position = poScreenCenter
-  PixelsPerInch = 120
-  TextHeight = 16
+  PixelsPerInch = 96
+  TextHeight = 13
   object Panel1: TPanel
-    Left = 10
-    Top = 10
-    Width = 346
-    Height = 198
+    Left = 8
+    Top = 8
+    Width = 281
+    Height = 161
     BevelOuter = bvLowered
     TabOrder = 0
     object ProgramIcon: TImage
-      Left = 10
-      Top = 10
-      Width = 80
-      Height = 70
+      Left = 8
+      Top = 8
+      Width = 65
+      Height = 57
       IsControl = True
     end
     object ProductName: TLabel
-      Left = 108
-      Top = 20
-      Width = 86
-      Height = 16
+      Left = 88
+      Top = 16
+      Width = 68
+      Height = 13
       Caption = 'Product Name'
       IsControl = True
     end
     object Version: TLabel
-      Left = 108
-      Top = 49
-      Width = 46
-      Height = 16
-      Caption = 'Version'
+      Left = 88
+      Top = 40
+      Width = 56
+      Height = 13
+      Caption = 'Version: 1.0'
       IsControl = True
     end
     object Copyright: TLabel
-      Left = 10
-      Top = 98
-      Width = 57
-      Height = 16
+      Left = 8
+      Top = 80
+      Width = 44
+      Height = 13
       Caption = 'Copyright'
       IsControl = True
     end
     object Comments: TLabel
-      Left = 10
-      Top = 128
-      Width = 64
-      Height = 16
+      Left = 8
+      Top = 104
+      Width = 49
+      Height = 13
       Caption = 'Comments'
       WordWrap = True
       IsControl = True
     end
   end
   object OKButton: TButton
-    Left = 148
-    Top = 219
-    Width = 80
-    Height = 41
+    Left = 120
+    Top = 178
+    Width = 65
+    Height = 33
     Caption = 'OK'
     Default = True
     ModalResult = 1
